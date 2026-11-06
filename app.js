@@ -53,7 +53,7 @@ function renderDetail() {
     <section class="detail-section"><h3 class="section-title">Dados do cliente</h3>
       <div class="customer-panel"><div class="avatar">${initials}</div><div><strong>${t.customer}</strong><span>${t.email}</span></div></div>
     </section>
-    <section class="detail-section"><h3 class="section-title">Área de testes</h3><div id="satisfaction_emb_form" style="height:450px; width:450px;"></div></section>
+    <section class="detail-section"><h3 class="section-title">Área de testes</h3><div id="satisfaction_emb_form""></div></section>
   `;
 }
 
