@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tickets | Medallia Digital Test Lab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="tickets-page">
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">M</span> Medallia <span class="brand-muted">Test Lab</span></a>
+    <div class="header-right"><span class="environment"><i></i> Sandbox</span><a class="home-link" href="index.html">← Home</a></div>
+  </header>
+
+  <main class="workspace">
+    <section class="ticket-sidebar" aria-label="Lista de tickets">
+      <div class="sidebar-heading">
+        <div><div class="eyebrow">CENTRAL DE ATENDIMENTO</div><h1>Tickets <span id="ticket-count">06</span></h1></div>
+        <button class="filter-button" id="clear-search" title="Limpar busca" aria-label="Limpar busca">↺</button>
+      </div>
+      <label class="search-box"><span>⌕</span><input id="ticket-search" type="search" placeholder="Buscar por ticket ou assunto..." autocomplete="off"></label>
+      <div class="list-label">TODOS OS TICKETS <span>MAIS RECENTES</span></div>
+      <div id="ticket-list" class="ticket-list"></div>
+    </section>
+
+    <section class="ticket-detail" aria-live="polite">
+      <div id="detail-content"></div>
+    </section>
+  </main>
+
+  <footer class="footer workspace-footer"><span>Medallia Digital Test Lab</span><span>Dados fictícios para testes</span></footer>
+  <!-- Insira aqui o snippet do Medallia Digital quando estiver pronto para testar. -->
+  <script src="app.js"></script>
+</body>
+</html>
